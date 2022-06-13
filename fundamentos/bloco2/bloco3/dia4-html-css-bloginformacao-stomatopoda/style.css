@@ -1,6 +1,8 @@
 .navegacao li{
     display:inline
     
-    
 }
 
+.navegacao li a{
+    padding:20px;
+}
