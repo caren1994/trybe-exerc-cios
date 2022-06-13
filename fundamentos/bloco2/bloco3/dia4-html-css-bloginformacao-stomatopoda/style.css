@@ -6,3 +6,12 @@
 .navegacao li a{
     padding:20px;
 }
+
+table ,th, td{
+    border:1px solid black;
+border-collapse: collapse;
+}
+
+.fatosli li{
+    list-style:none;
+}
