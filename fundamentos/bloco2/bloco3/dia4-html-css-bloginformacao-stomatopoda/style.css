@@ -1,17 +1,98 @@
-.navegacao li{
-    display:inline
-    
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
-.navegacao li a{
-    padding:20px;
+h2{
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+#group{
+    display: inline-block;
+    border:10px solid white;
 }
 
 table ,th, td{
-    border:1px solid black;
+border:1px solid black;
 border-collapse: collapse;
+margin:30px auto;
+height: 50px;
 }
 
-.fatosli li{
-    list-style:none;
+.navegacao li{
+    display:inline;
+    color:white;
+    
 }
+.navli{
+    background-color: #245;
+}
+
+
+.navegacao li a{
+ padding:150px;
+    
+}
+
+
+.fatosli li{
+    font-size: 18px;
+    line-height:30px;
+}
+
+.fatosp p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.ataque p{
+
+}
+
+.aside a{
+    background-color: #245;
+    display:inline-block;
+    border:1px solid #245;
+    margin-top:-90em;
+    margin-left:1000px;
+    margin-top:-50em;
+    font-size: 30px;
+    color:white;
+width: 150px;
+padding:30px;
+}
+.footer h6{
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:90em;
+
+
+}
+
+.aside{
+ margin-top: -98em;  
+ text-align: center; 
+ 
+ 
+}
+
+
