@@ -14,6 +14,7 @@ h3{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
+    color:white;
 
 }
 
@@ -65,35 +66,90 @@ height: 50px;
     font-size: 18px;
 }
 
-
-.aside a{
-    background-color: #245;
-    display:inline-block;
-    border:1px solid #245;
-    margin-top:-90em;
-    margin-left:1000px;
-    margin-top:-50em;
-    font-size: 30px;
-    color:white;
-width: 150px;
-padding:30px;
-}
 .footer h6{
     background-color: black;
     color:white;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top:90em;
+    margin-top:98em;
 
 
 }
+ 
+ 
+.ataque {
+    padding:30px 70px;
+    background-color:#245;
+    min-height:350px;
+}
+.ataque img{
+    float:right;
+    width: 48%;
+    max-width:350px;
 
-.aside{
- margin-top: -98em;  
- text-align: center; 
- 
- 
+}
+.ataque p{
+    float:left;
+    width: 48%;
+    margin-bottom: 25px;
+    color:white;
+
+}
+
+   .vida{
+       padding:30px 70px;
+       background-color:gray;
+       min-height:350px;
+   }
+   .vida img{
+       float:right;
+       width: 48%;
+       max-width:350px;
+   
+   }
+   .vida p{
+       float:left;
+       width: 48%;
+       margin-bottom: 25px;
+       color:white;
+   
+   }
+   .caracteristicas{
+    padding:30px 70px;
+    background-color:#245;
+    min-height:350px;
+}
+.caracteristicas img{
+    float:right;
+    width: 48%;
+    max-width:350px;
+
+}
+.caracteristicas p{
+    float:left;
+    width: 48%;
+    margin-bottom: 25px;
+    color:white;
+
+}
+
+.aside a{
+    background-color: #245;
+    display:inline-block;
+    border:1px solid #245;
+    margin-top:-200em;
+    margin-left:1000px;
+    margin-top:-50em;
+    font-size: 30px;
+    color:white;
+    width: 150px;
+    padding:30px;
+}
+.aside {
+    margin-top:-110em;  
+    text-align: center; 
+    
 }
 
 
