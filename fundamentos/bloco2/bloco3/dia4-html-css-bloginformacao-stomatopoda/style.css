@@ -39,16 +39,18 @@ height: 50px;
 
 .navegacao li{
     display:inline;
-    color:white;
     
 }
+
 .navli{
-    background-color: #245;
+    background-color:#245;
+    
 }
 
 
 .navegacao li a{
  padding:150px;
+ color:white;
     
 }
 
