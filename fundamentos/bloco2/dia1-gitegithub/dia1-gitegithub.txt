@@ -1,0 +1,34 @@
+trybe-exercicios                                                                                   ✔  181  10:55:22
+: 1654355460:0;git checkout -b fundamentos
+: 1654355471:0;mkdir fundamentos
+: 1654355505:0;git add .
+: 1654355791:0;cd fundamentos
+: 1654356571:0;tree
+: 1654356582:0;cd ..
+: 1654356656:0;cd trybe-exercicios
+: 1654356668:0;ls
+: 1654356681:0;git branch
+: 1654356693:0;git checkout main
+: 1654356699:0;ls
+: 1654356744:0;rm -rf fundamentos
+: 1654356746:0;ls
+: 1654356755:0;git add .
+: 1654356767:0;git commit -m "readme"
+: 1654356788:0;git branch
+: 1654356809:0;git checkout fundamentos
+: 1654356834:0;ls
+: 1654356865:0;mkdir fundamentos
+: 1654356872:0;cd fundamentos
+: 1654357169:0;s
+: 1654357173:0;ls
+: 1654357222:0;git checkout -b bloco2
+: 1654357237:0;mkdir bloco2
+: 1654357242:0;cd bloco2
+: 1654357687:0;touch dia 1-git-github
+: 1654357755:0;rm -rf dia 1-git-github
+: 1654357831:0;touch {arquivo,teste}.txt
+: ls
+: rm -rf teste.txt arquivo.txt
+: touch {dia1-gitegithub,dia2gitegithub,dia3internet}.txt
+: ls
+
