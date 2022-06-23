@@ -9,5 +9,5 @@ for(index=0;index<numbers.length;index+=1){
          }
     } 
     
-    console.log( 'O maior númer é' +  maiorNumero ) ;
+    console.log( 'O maior número é'  , maiorNumero ) ;
 
