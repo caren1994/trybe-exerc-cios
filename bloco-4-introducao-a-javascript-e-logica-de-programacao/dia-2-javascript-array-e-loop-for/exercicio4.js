@@ -12,5 +12,3 @@ if (soma/numbers.length>20){
  }else {
 console.log('valor menor ou igual a 20' , soma/numbers.length);
  }
-
-
