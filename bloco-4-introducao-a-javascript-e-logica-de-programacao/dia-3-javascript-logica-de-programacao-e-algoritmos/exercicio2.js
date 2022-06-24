@@ -1,2 +1,5 @@
-let reverseStringIs = reverse("adam")
-console.log(reverseStringIs)
+let word = 'tryber!';
+
+word = word.split('').reverse().join('');
+
+console.log(word);
