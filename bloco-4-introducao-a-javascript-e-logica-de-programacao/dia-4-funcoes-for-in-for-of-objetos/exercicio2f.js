@@ -9,3 +9,4 @@ for(let index=0;index<arrayTeste.length;index+=1){
 }
 }
 console.log(testes(arrayTeste));
+
