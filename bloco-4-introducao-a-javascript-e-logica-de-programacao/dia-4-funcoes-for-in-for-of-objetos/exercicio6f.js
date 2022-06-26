@@ -1,9 +1,11 @@
-let result =0;
-function soma(param1,){
-    for(let index=1;index<5;index+=1){
-let nextElement=[index+1]
-const somatorio=nextElement
-result=[index]+[index]
+let number=5;
+function soma(number){
+    
+let num=0;
+for(let index=0;index<=number;index+=1){
+num=num+index
+}
+return num;
 
-    }return result
-}console.log(soma(5));
+    }
+console.log(soma(number));
