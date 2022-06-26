@@ -1,10 +1,22 @@
-let arrey = [2, 3, 2, 5, 8, 2, 3];
-function Conta(arrey) {
-  let counts = [];
-  arrey.forEach(function (index) {
-    counts[index] = (counts[index] || 0) + 1;
-  });
-  console.log(counts);
+let arrayTest = [2, 3, 2, 5, 8, 2, 3];
+
+function isBiggerInArray(array) {
+	let times = 0;
+	let bigger = 0;
+	let arrayMostTimesPosition = 0;
+	for (let i in array) {
+		for (let j in array) {
+			if (array[i] === array[j]){
+				times += 1;
+			}
+		}
+		if (times > bigger) {
+			bigger = times;
+			arrayMostTimesPosition = i;
+		} 
+		times = 0;
+	}
+	return array[arrayMostTimesPosition];
 }
 
-Conta(arrey);
+console.log(isBiggerInArray(arrayTest));
