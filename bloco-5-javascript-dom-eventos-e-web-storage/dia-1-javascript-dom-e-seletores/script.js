@@ -20,4 +20,4 @@ function exercicio6(){
           
     }exercicio6()
 
-// para mostrar no console do browser coloca console.log(exercicio6(p.innerText));
+// para mostrar no console do browser coloca exercicio6();
