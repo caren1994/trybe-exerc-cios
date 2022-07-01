@@ -146,9 +146,28 @@
     vertical-align: middle;
     width: 13.6%;
   }
+  #days .day:hover{
+    font-size: 2rem;
+  }
   
   .week-days {
     font-size: 20px;
     margin: 0px;
     padding: 10px 0;
   }
+  .cor-fundo{
+    background-color:white;
+  }
+
+  .friday-active{
+    position:relative;
+    visibility:hidden;
+  }
+  .friday-active::after{
+    visibility:visible;
+    position:absolute;
+    top:0;
+    left:0;
+    content:"sextouuu!";
+  }
+ 
