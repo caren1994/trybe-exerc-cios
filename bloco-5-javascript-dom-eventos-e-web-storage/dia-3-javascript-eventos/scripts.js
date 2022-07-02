@@ -130,20 +130,33 @@ function legendaTaf(color){
 
 
 // exercicio9
-function selecionaTarefa (){
-  let selectedTask = document.getElementsByClassName('task selected');
-  let myTasks = document.querySelector('.task');
-  myTasks.addEventListener('click', function() {
-    if (selectedTask.length === 0) {
-      event.target.className = 'task selected'; // Caso selectedTask retornar um array com nenhum item
-    } else {
-      event.target.className = 'task';// Caso a primeira condição retornar falso
-    }
-  });
-}selecionaTarefa();
+// function selecionaTarefa(event){
+//  const task=event.target;
+//  task.classList.toggle("selected");
+// }
+  function setTaskClass() {
+    let selectedTask = document.getElementsByClassName('task selected');
+    let myTasks = document.querySelector('.task');
+    myTasks.addEventListener('click', function(event) {
+      if (selectedTask.length === 0) {
+        event.target.className = 'task selected';
+      } else {
+        event.target.className = 'task';
+      }
+    });
+  }setTaskClass();
 
 
 
 // exercicio10
+function addColorToDay(){
+  const daysOfMonth=document.getElementsByClassName("day")
+  for(const day of daysOfMonth){
+    day.addEventListener("click",({ target }) => {
+      const tarefaSelecionada=document.querySelector(".selected");
+     const corDaTarefaSelecionada=(!tarefaSelecionada)?"#777":tarefaSelecionada.style.backgroundColor;
+     target.style.color=corDaTarefaSelecionada;
 
-// exercicio11
+    })
+  }
+}
