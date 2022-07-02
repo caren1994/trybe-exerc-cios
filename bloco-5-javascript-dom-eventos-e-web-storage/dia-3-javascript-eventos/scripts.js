@@ -109,9 +109,40 @@ function togglesClass(elementoClasse,classeToggle){
 
 // exercicio7
 
+function tarefaPersonalizada(string){
+  const tags=document.createElement('span');
+  tags.innerText=string;
+  const div=document.querySelector('.my-tasks');
+  div.appendChild(tags);
+  
+}console.log(tarefaPersonalizada('cozinhar'));
+
 // exercicio8
 
+function legendaTaf(color){
+  const div=document.querySelector('.my-tasks');
+  const leg=document.createElement('div');
+  leg.className='task';
+  leg.style.backgroundColor=color;
+  div.appendChild(leg);
+}legendaTaf('green');
+
+
+
 // exercicio9
+function selecionaTarefa (){
+  let selectedTask = document.getElementsByClassName('task selected');
+  let myTasks = document.querySelector('.task');
+  myTasks.addEventListener('click', function() {
+    if (selectedTask.length === 0) {
+      event.target.className = 'task selected'; // Caso selectedTask retornar um array com nenhum item
+    } else {
+      event.target.className = 'task';// Caso a primeira condição retornar falso
+    }
+  });
+}selecionaTarefa();
+
+
 
 // exercicio10
 
